@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang = 'en'>
+<head>
+
+	<meta charset = 'utf-8'>
+	<meta name = 'viewport' content = 'width=device-width, intitial-scale=1, minimum-scale=1' />
+	<meta name = 'description' content = 'This is a website about my progress and examples of my programming journey.'>
+	<title>Naila's Website :: About Me</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+	<link rel = 'stylesheet' href = 'style.css'>
+
+</head>
+
+<body>
+
+	<header>
+		<img src = "images/logo.png" alt = "logo" height = "325px" width = "125px" class = "img-fluid logo">
+		<h1 class = "headerh">Naila Bytes</h1>
+	</header>
+
+	<nav>
+	  <ul>
+	    <li><a href="index.html">Home</a></li>
+	    <li><a href="resume.html">Resume</a></li>
+	    <li><a href = "portfolio.html"> Portfolio</li>
+	    <li><a href="gallery.html">Gallery</a></li>
+	  </ul>
+	</nav>
+
+	<main class = "gallery">
+		<h2>Gallery</h2>
+
+		<div class = "container-fluid">
+			<div class = "row">
+				<div class = "col-sm-2">
+					<i class="fa fa-camera" aria-hidden="true"></i>
+				</div>
+
+				<div class = "col-sm-10">
+					<p>My gallery features picture I have taken throughout the year. I really enjoy taking pictures of nice areas that I've traveled to since I move around alot. I also added a few pictures of my cat and dog who have also joined my journey. </p>
+				</div>
+			</div>
+
+			<div class = "row">
+				<div class = "col-sm-12">
+
+					<div class="gallery">
+
+					    <div class="preview">
+					        <img id="preview" src="images/mn_stpsunrise.jpeg" style="display:block; margin:0 auto;" alt=""  height="600" width="800"/>
+					    </div>
+
+					    <div class="gallery-thumbnails" style="margin:0 auto;text-align:center">
+					    	<img onclick="document.getElementById('preview').src = document.getElementById('img1').src" id="img1" src="images/mn_stpsunrise.jpeg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img2').src" id="img2" src="images/mn_stptraffic.jpeg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img3').src;" id="img3" src="images/mnsnow.jpeg" alt=""  />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img4').src;" id="img4" src="images/scriver.jpeg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img5').src;" id="img5" src="images/scsunset.jpeg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img6').src;" id="img6" src="images/universal.jpeg" alt=""  />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img7').src;" id="img7" src="images/glo.jpeg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img8').src;" id="img8" src="images/glo1.jpeg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img9').src;" id="img9" src="images/heavy.jpeg" alt="" />
+					        <img onclick="document.getElementById('preview').src = document.getElementById('img10').src;" id="img10" src="images/heavy1.jpeg" alt="" />
+					    </div>
+					    
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
+	</main>
+
+	<footer>
+		<div class = "container-fluid">
+			<div class = "row">
+				<div class = "col-sm-6">
+					<h4>Web Design Project</h4>
+					<p id = "footerp">This is my web design final project. I am making a website about all about me. I am currently a student <strong>Saint Paul College</strong> in Minnesota.</p>
+				</div>
+				<div class = "col-sm-2">
+					<i class="fa fa-envelope" aria-hidden="true"></i><a href = 'mailto:ak8382hb@go.minnstate.edu'>Email Me</a>
+				</div>
+				<div class = "col-sm-2">
+					<i class="fa fa-linkedin-square" aria-hidden="true"></i><a href = 'tel:9088586721'>Connect on LinkedIn</a>
+				</div>
+				<div class = "col-sm-2">
+					<i class="fa fa-github" aria-hidden="true"></i><a href = 'mailto:ak8382hb@go.minnstate.edu'>Connect on Github</a>
+				</div>
+			</div>
+		</div>
+		<small style = "text-align: center;">&copy; 2024 Website Template. All rights reserved.</small>
+	</footer>
+
+	<!--jQuery, Popper, and Bootstrap Javascript files-->
+	<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>

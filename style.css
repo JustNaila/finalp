@@ -1,0 +1,246 @@
+/* Fonts */
+/* Reddit Sans Condensed Font */
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Sans+Condensed:wght@200..900&display=swap');
+
+/* Walter Turncoat Font */
+@import url('https://fonts.googleapis.com/css2?family=Walter+Turncoat&display=swap');
+
+/* Short Stack */
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&family=Walter+Turncoat&display=swap');
+
+/* Body */
+body {
+  font-family: 'Reddit Sans Condensed', sans-serif;
+  margin: 0;
+  background-color: #F2E0BD;
+}
+
+.other {
+  text-align: center;
+}
+
+/* Buttons */
+.my-button:link {
+  display: block;
+  margin: 0 auto;
+  font-size: 20px;
+  border: 3px solid #736140;
+  border-radius: 50px;
+  background-color: #736140;
+  color: #F2E0BD;
+}
+
+.my-button:hover{
+  color: #736140;
+  background-color: #F2E0BD;
+  text-decoration: none;
+}
+
+/* Link Design outside of Nav*/
+a:link {
+  color: #F2E0BD;
+  text-align: center;
+}
+a:visited {
+  color: #F2E0BD;
+}
+a:hover {
+  color: #736140;
+}
+a:active {
+  color: #594B2F;
+}
+
+/* Header Design */
+header {
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+
+header img{
+  float: left;
+}
+
+.headerh{
+  font-family: "Short Stack";
+  color: #736140;
+  display: inline;
+  float: left;
+  margin: 25px 15px 0px 0px;
+  font-size: 45px;
+}
+
+/* Navigation Design */
+nav {
+  background-color: #BFAF8F;
+  border-bottom: 3px solid #594B2F;
+  padding: 5px;
+}
+
+nav ul{
+  list-style-type: none;
+  padding-top: 35px;
+}
+
+nav li{
+  display: inline;
+  padding: 5px;
+}
+
+nav a{
+  text-decoration: none;
+}
+
+nav a:link{
+  color: #F2E0BD;
+}
+
+nav a:visited{
+  color: #F2E0BD;
+}
+
+nav a:hover{
+  color: #594B2F;
+}
+
+nav a:active{
+  color: #F2E0BD;
+}
+
+/* Main */
+main {
+  max-width: 875px;
+  margin: 20px auto;
+  padding: 10px;
+}
+
+p{
+  color: #736140;
+}
+
+/* Headers */
+h2 {
+  font-family: 'Walter Turncoat';
+  text-align: center;
+  color: #594B2F;
+  font-size: 30px;
+}
+
+h3 {
+  font-family: 'Walter Turncoat';
+  color: #594B2F;
+  text-align: left;
+}
+
+/* Columns */
+.col-sm-6{
+  text-align: left;
+  color: #F2E0BD;
+}
+
+.col-sm-6 a:link{
+  color: #736140;
+}
+
+.col-sm-6 a:hover{
+  color: #736140;
+}
+
+/* Footer */
+footer{
+  background-image: url(images/background.jpg);
+  background-size: cover;
+  padding: 5px 75px;
+  border-top: solid 2px #594B2F;
+  list-style-type: none;
+  text-align: center;
+}
+
+footer p{
+  color: #F2E0BD;
+}
+
+/* Icons */
+footer .fa{
+  font-size: 3em;
+  color: #F2E0BD;
+  margin: 0px 40px;
+  display: block;
+}
+
+.home .fa{
+  font-size: 5em;
+  color: #594B2F;
+  margin: 0px 40px 0px 90px;
+  display: block;
+  /* border: solid 5px #594B2F;
+  border-radius: 30px; */
+}
+
+/* Gallery */
+.gallery .preview{
+    width: 100%;
+    height: auto;
+}
+
+.gallery .gallery-thumbnails img {
+    width: 100px;
+    height: 75px;
+    margin: 3px 10px 10px 0;
+}
+
+.gallery .gallery-thumbnails img:hover {
+    opacity: 0.8;
+    cursor: pointer;
+}
+
+.gallery .preview img#preview {
+    padding: 1px;
+    max-width: 100%;
+    height: auto;
+    margin: 0 auto !important;
+    display: block !important;
+}
+
+.gallery .fa{
+  font-size: 5em;
+  color: #594B2F;
+  margin: 0px 40px 0px 40px;
+  display: block;
+}
+
+/* Small */
+small{
+  color: #F2E0BD;
+}
+
+/* Images */
+.home-photo{
+  float: right;
+  max-width: 50%;
+  height: auto;
+  margin: 100px 0 10px 20px;
+}
+
+.portfolio img {
+  box-shadow: 2px 2px 2px 2px #594B2F;
+  margin-bottom: 20px;
+}
+
+/*CSS without a media query--applies to all sizes unless overridden*/
+h1{
+    font-size: 4em;
+ }
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+  h1{
+    font-size: 1.8em;
+}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only screen and (max-width: 768px) {
+  h1{
+    font-size: 1.5em;
+  }
+}
